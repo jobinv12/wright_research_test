@@ -5,7 +5,7 @@ import requests
 
 st.header("Wright Research Assignment")
 
-symbol = st.text_input("Enter a Symbol")
+symbol = st.text_input("Enter a Stock Name")
 
 try:
     url = "https://yh-finance.p.rapidapi.com/stock/v3/get-historical-data"
